@@ -1,9 +1,9 @@
 name: Update GeoLite2-Country Database
 
 on:
-  schedule:
+  # schedule:
     # Run every Tuesday and Friday at 06:00 UTC (MaxMind update days)
-    - cron: '0 6 * * 2,5'
+    # - cron: '0 6 * * 2,5'
   workflow_dispatch:
     inputs:
       force_publish:
